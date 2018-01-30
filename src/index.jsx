@@ -5,7 +5,7 @@ class Welcome extends React.Component {
   constructor(props) {
     super(props);
     this.handleChange = this.handleChange.bind(this);
-    this.state = { name: ':D' };
+    this.state = { name: 'people' };
   }
   handleChange(e) {
     this.setState({name: e.target.value});
